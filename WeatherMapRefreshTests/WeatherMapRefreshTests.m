@@ -2,7 +2,7 @@
 //  WeatherMapRefreshTests.m
 //  WeatherMapRefreshTests
 //
-//  Created by Ben Bueltmann on 3/27/15.
+//  Created by Edil Ashimov on 7/21/15.
 //  Copyright (c) 2015 Mobile Makers. All rights reserved.
 //
 

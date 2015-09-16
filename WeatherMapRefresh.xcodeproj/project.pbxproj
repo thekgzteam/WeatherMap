@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		989735021AC5E81500CB6F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 989735011AC5E81500CB6F73 /* main.m */; };
 		989735051AC5E81500CB6F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 989735041AC5E81500CB6F73 /* AppDelegate.m */; };
-		989735081AC5E81500CB6F73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989735071AC5E81500CB6F73 /* ViewController.m */; };
+		989735081AC5E81500CB6F73 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989735071AC5E81500CB6F73 /* MapViewController.m */; };
 		9897350B1AC5E81500CB6F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989735091AC5E81500CB6F73 /* Main.storyboard */; };
 		9897350D1AC5E81500CB6F73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9897350C1AC5E81500CB6F73 /* Images.xcassets */; };
 		989735101AC5E81500CB6F73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9897350E1AC5E81500CB6F73 /* LaunchScreen.xib */; };
 		9897351C1AC5E81500CB6F73 /* WeatherMapRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9897351B1AC5E81500CB6F73 /* WeatherMapRefreshTests.m */; };
+		989735261AC5E83700CB6F73 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989735251AC5E83700CB6F73 /* MapKit.framework */; };
+		989735291AC5EA0400CB6F73 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 989735281AC5EA0400CB6F73 /* City.m */; };
+		9897352C1AC5EE2F00CB6F73 /* WeatherTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9897352B1AC5EE2F00CB6F73 /* WeatherTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		989735011AC5E81500CB6F73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		989735031AC5E81500CB6F73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		989735041AC5E81500CB6F73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		989735061AC5E81500CB6F73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		989735071AC5E81500CB6F73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		989735061AC5E81500CB6F73 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		989735071AC5E81500CB6F73 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		9897350A1AC5E81500CB6F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9897350C1AC5E81500CB6F73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9897350F1AC5E81500CB6F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		989735151AC5E81500CB6F73 /* WeatherMapRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherMapRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9897351A1AC5E81500CB6F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9897351B1AC5E81500CB6F73 /* WeatherMapRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherMapRefreshTests.m; sourceTree = "<group>"; };
+		989735251AC5E83700CB6F73 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		989735271AC5EA0400CB6F73 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		989735281AC5EA0400CB6F73 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		9897352A1AC5EE2F00CB6F73 /* WeatherTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherTableViewController.h; sourceTree = "<group>"; };
+		9897352B1AC5EE2F00CB6F73 /* WeatherTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989735261AC5E83700CB6F73 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		989734F31AC5E81500CB6F73 = {
 			isa = PBXGroup;
 			children = (
+				989735251AC5E83700CB6F73 /* MapKit.framework */,
 				989734FE1AC5E81500CB6F73 /* WeatherMapRefresh */,
 				989735181AC5E81500CB6F73 /* WeatherMapRefreshTests */,
 				989734FD1AC5E81500CB6F73 /* Products */,
@@ -83,9 +93,13 @@
 			children = (
 				989735031AC5E81500CB6F73 /* AppDelegate.h */,
 				989735041AC5E81500CB6F73 /* AppDelegate.m */,
-				989735061AC5E81500CB6F73 /* ViewController.h */,
-				989735071AC5E81500CB6F73 /* ViewController.m */,
+				989735061AC5E81500CB6F73 /* MapViewController.h */,
+				989735071AC5E81500CB6F73 /* MapViewController.m */,
 				989735091AC5E81500CB6F73 /* Main.storyboard */,
+				9897352A1AC5EE2F00CB6F73 /* WeatherTableViewController.h */,
+				9897352B1AC5EE2F00CB6F73 /* WeatherTableViewController.m */,
+				989735271AC5EA0400CB6F73 /* City.h */,
+				989735281AC5EA0400CB6F73 /* City.m */,
 				9897350C1AC5E81500CB6F73 /* Images.xcassets */,
 				9897350E1AC5E81500CB6F73 /* LaunchScreen.xib */,
 				989734FF1AC5E81500CB6F73 /* Supporting Files */,
@@ -219,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				989735081AC5E81500CB6F73 /* ViewController.m in Sources */,
+				989735081AC5E81500CB6F73 /* MapViewController.m in Sources */,
 				989735051AC5E81500CB6F73 /* AppDelegate.m in Sources */,
+				989735291AC5EA0400CB6F73 /* City.m in Sources */,
+				9897352C1AC5EE2F00CB6F73 /* WeatherTableViewController.m in Sources */,
 				989735021AC5E81500CB6F73 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
